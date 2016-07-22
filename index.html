@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="MovieShaker">
+<head>
+    <meta charset="UTF-8">
+    <title>Movie Shaker</title>
+    <script src="libs/angular/angular.min.js"></script>
+    <script src="libs/angular/ng-ui-router.js"></script>
+    <script src="libs/spinner/spin.min.js"></script>
+    <script src="libs/spinner/angular-spinner.min.js"></script>
+    <script src="app/app.js"></script>
+    <script src="app/services/dataService.js"></script>
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css"/>
+</head>
+<body>
+    <!--test info-->
+    <div>{{1+1}}</div>
+
+    <div class="container">
+
+        <div class="navbar">
+            <div class="navbar-inner">
+                <a class="brand" href="/">Movie Shaker</a>
+                <ul class="nav">
+                    <li><a ui-sref="toprated" class="btn btn-default">Top rated</a></li>
+                    <li><a ui-sref="popularactors" class="btn btn-default">Popular actors</a></li>
+                    <li><a ui-sref="searchbyname" class="btn btn-default">Search by name</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="span12">
+                <div class="well" ui-view></div>
+            </div>
+        </div>
+
+    </div>
+
+    <span us-spinner="{radius:30, width:8, length: 16}" ng-if="showAjaxSpinner"></span>
+
+</body>
+</html>
