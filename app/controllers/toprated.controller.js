@@ -1,6 +1,8 @@
 /**
  * Created by Evgen on 23.07.2016.
  */
+/*TODO:temporary disabled*/
+/*
 var TopRatedController = function ($http, $state, dataService) {
     var _self = this;
 
@@ -22,4 +24,4 @@ var TopRatedController = function ($http, $state, dataService) {
 alert("controller before initgf");
 TopRatedController.$inject = ['$http', '$state', 'dataService'];
 
-movieShakerApp.controller('TopRatedController', TopRatedController);
+movieShakerApp.controller('TopRatedController', TopRatedController);*/

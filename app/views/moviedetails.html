@@ -1,6 +1,19 @@
 <h1>Movie details</h1>
 <hr/>
-<div>TODO: add view for data response</div>
-<div>{{record}}</div>
+<div class="row">
+    <div class="col-xs-8 title-column">
+        <h2>{{record.title}} ({{record.release_date}})</h2>
+    </div>
+    <div class="col-xs-4 vote-common">
+        <div>{{record.vote_average}}</div>
+        <div class="label label-default">{{record.vote_count}}</div>
+    </div>
+    <div class="col-xs-12 poster-column">
+        <img ng-src="http://image.tmdb.org/t/p/w500{{record.poster_path}}" alt="{{record.title}}"/>
+    </div>
+    <div class="col-xs-12 overview">
+        <span>{{record.overview}}</span>
+    </div>
+</div>
 <hr/>
 <a ui-sref="toprated">Back to Top Rated</a>
