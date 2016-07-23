@@ -11,4 +11,39 @@
 <hr/>
 <a ui-sref="toprated">Back to Top Rated</a>
 
-<div>{{results}}</div>
+<div ng-if="results">
+    <ul class="list-group">
+        <li class="row list-group-item text-center">
+            <div class="col-xs-2 poster-column">
+                <span>Poster</span>
+            </div>
+            <div class="col-xs-4 title-column">
+                <span>Title</span>
+            </div>
+            <div class="col-xs-2 release-date">
+                <span>Release date</span>
+            </div>
+            <div class="col-xs-2 vote-average">
+                <span>Vote average</span>
+            </div>
+            <div class="col-xs-2 vote-count">Vote count</div>
+        </li>
+        <li class="row list-group-item" ng-repeat="record in results.results">
+            <div class="col-xs-2 poster-column">
+                <img ng-src="http://image.tmdb.org/t/p/w92{{record.poster_path}}" alt="{{record.title}}"/>
+            </div>
+            <div class="col-xs-4 title-column">
+                <a ui-sref="moviedetails({recordData: record})">{{record.title}}</a>
+            </div>
+            <div class="col-xs-2 release-date">
+                <span>{{record.release_date}}</span>
+            </div>
+            <div class="col-xs-2 vote-average">
+                <span>{{record.vote_average}}</span>
+            </div>
+            <div class="col-xs-2 vote-count">
+                <span>{{record.vote_count}}</span>
+            </div>
+        </li>
+    </ul>
+</div>

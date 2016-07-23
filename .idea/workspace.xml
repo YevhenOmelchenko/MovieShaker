@@ -20,7 +20,7 @@
     <favorites_list name="MovieShaker" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.3893581">
+    <splitter split-orientation="horizontal" split-proportion="0.3935811">
       <split-first>
         <leaf>
           <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
@@ -36,8 +36,8 @@
           <file leaf-file-name="toprated.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/views/toprated.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-5.6226416">
-                  <caret line="22" column="58" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="58" />
+                <state vertical-scroll-proportion="-0.65384614">
+                  <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="34" selection-end-column="5" />
                   <folding />
                 </state>
               </provider>
@@ -46,8 +46,8 @@
           <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/app.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.24637681">
-                  <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+                <state vertical-scroll-proportion="0.6927536">
+                  <caret line="41" column="37" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="37" />
                   <folding />
                 </state>
               </provider>
@@ -81,10 +81,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="moviedetails.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="moviedetails.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/views/moviedetails.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.20481928">
+                <state vertical-scroll-proportion="-5.230769">
                   <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
                   <folding />
                 </state>
@@ -94,18 +94,18 @@
           <file leaf-file-name="actordetails.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/views/actordetails.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
+                <state vertical-scroll-proportion="-1.3076923">
                   <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="34" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="popularactors.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="popularactors.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/popularactors.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
+                <state vertical-scroll-proportion="0.15361446">
+                  <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
                   <folding />
                 </state>
               </provider>
@@ -114,8 +114,8 @@
           <file leaf-file-name="searchbyname.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/views/searchbyname.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="2" column="43" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="43" />
+                <state vertical-scroll-proportion="-15.730769">
+                  <caret line="30" column="76" selection-start-line="30" selection-start-column="76" selection-end-line="30" selection-end-column="76" />
                   <folding />
                 </state>
               </provider>
@@ -140,17 +140,17 @@
         <option value="$PROJECT_DIR$/app/views/state1.list.html" />
         <option value="$PROJECT_DIR$/app/views/state1.html" />
         <option value="$PROJECT_DIR$/app/views/details.html" />
-        <option value="$PROJECT_DIR$/app/views/toprated.html" />
         <option value="$PROJECT_DIR$/app/views/state2.html" />
         <option value="$PROJECT_DIR$/web.config" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/app/services/dataService.js" />
-        <option value="$PROJECT_DIR$/app/views/searchbyname.html" />
         <option value="$PROJECT_DIR$/app/views/actordetails.html" />
-        <option value="$PROJECT_DIR$/app/views/popularactors.html" />
         <option value="$PROJECT_DIR$/app/controllers/toprated.controller.js" />
-        <option value="$PROJECT_DIR$/app/app.js" />
         <option value="$PROJECT_DIR$/app/views/moviedetails.html" />
+        <option value="$PROJECT_DIR$/app/app.js" />
+        <option value="$PROJECT_DIR$/app/views/searchbyname.html" />
+        <option value="$PROJECT_DIR$/app/views/toprated.html" />
+        <option value="$PROJECT_DIR$/app/views/popularactors.html" />
       </list>
     </option>
   </component>
@@ -365,7 +365,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="0" width="1452" height="876" extended-state="1" />
+    <frame x="-1" y="0" width="1452" height="876" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16265912" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -627,38 +627,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/popularactors.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/actordetails.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/searchbyname.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="43" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/toprated.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.6226416">
-          <caret line="22" column="58" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/toprated.controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.814815">
@@ -666,14 +634,6 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24637681">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -687,10 +647,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/searchbyname.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.730769">
+          <caret line="30" column="76" selection-start-line="30" selection-start-column="76" selection-end-line="30" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/actordetails.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3076923">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/moviedetails.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20481928">
+        <state vertical-scroll-proportion="-5.230769">
           <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/toprated.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.65384614">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="34" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6927536">
+          <caret line="41" column="37" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/popularactors.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15361446">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
           <folding />
         </state>
       </provider>
