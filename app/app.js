@@ -52,7 +52,7 @@ var movieShakerApp = angular.module("MovieShaker", ["ui.router", "angularSpinner
                 templateUrl: "/app/views/actordetails.html",
                 params:{ personData: null },
                 controller: function($scope, $stateParams) {
-                    $scope.person = $stateParams.personData;
+                    $scope.moviesList = $stateParams.personData;
                 }
             })
             .state('searchbyname', {

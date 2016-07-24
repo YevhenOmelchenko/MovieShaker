@@ -1,7 +1,16 @@
 <h1>Popular actors</h1>
 <hr/>
-<div>TODO: add view for data response</div>
-<hr/>
-<a ui-sref="actordetails({personData: {test: 'pass'}})">Show details</a>
-
-<div>{{popularActorsRecords}}}</div>
+<div class="row" ng-repeat="actor in popularActorsRecords">
+    <div class="col-xs-12 name-header">
+        <h2>{{actor.name}}</h2>
+    </div>
+    <div class="col-xs-2 profile-column">
+        <img ng-src="http://image.tmdb.org/t/p/w92{{actor.profile_path}}" alt="{{actor.name}}"/>
+    </div>
+    <div class="col-xs-2 popularity">
+        <span class="label label-default">{{actor.popularity}}</span>
+    </div>
+    <div class="col-xs-2 movie-list">
+        <a ui-sref="actordetails({personData: actor.known_for})">See movies</a>
+    </div>
+</div>
